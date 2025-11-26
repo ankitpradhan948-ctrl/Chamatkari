@@ -1,10 +1,14 @@
-function openPDF(pdfName) {
-    window.open(pdfName, "_blank");
+
+
+function toggleChapters() {
+    const box = document.getElementById("chapterBox");
+    box.style.display = (box.style.display === "none") ? "block" : "none";
 }
-function showMessage() {
-    let msg = document.getElementById("message");
-    msg.textContent = "ummm hmmm bade log !";
-    msg.style.opacity = 1;
+
+function openPDF(file) {
+    window.open(file, '_blank');
+}
+
 }
 
 
