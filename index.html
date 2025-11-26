@@ -17,19 +17,24 @@
     <script src="script.js"></script>
 <h2>My PDF Files</h2>
 
-<button onclick="openPDF('CH2.pdf')">Open CH2</button>
-<button onclick="openPDF('CH3.pdf')">Open CH3</button>
-<button onclick="openPDF('CH4.pdf')">Open CH4</button>
-<button onclick="openPDF('CH5.pdf')">Open CH5</button>
-<button onclick="openPDF('CH6.pdf')">Open CH6</button>
-<button onclick="openPDF('CH7.pdf')">Open CH7</button>
-<button onclick="openPDF('CH8.pdf')">Open CH8</button>
-<button onclick="openPDF('CH9.pdf')">Open CH9</button>
-<button onclick="openPDF('CH10.pdf')">Open CH10</button>
-<button onclick="openPDF('CH12.pdf')">Open CH12</button>
-<button onclick="openPDF('CH13.pdf')">Open CH13</button>
-<button onclick="openPDF('CH15.pdf')">Open CH15</button>
+
 <p id="message"></p>
 <a href="pdf-page.html">
-    <img src="folder-icon.png" width="80">
+    
 </a>
+<button onclick="toggleChapters()" class="main-btn">Open All Chapters</button>
+
+<div id="chapterBox" style="display:none; margin-top:20px;">
+    <button onclick="openPDF('CH2.pdf')">Open CH2</button>
+    <button onclick="openPDF('CH3.pdf')">Open CH3</button>
+    <button onclick="openPDF('CH4.pdf')">Open CH4</button>
+    <button onclick="openPDF('CH5.pdf')">Open CH5</button>
+    <button onclick="openPDF('CH6.pdf')">Open CH6</button>
+    <button onclick="openPDF('CH7.pdf')">Open CH7</button>
+    <button onclick="openPDF('CH8.pdf')">Open CH8</button>
+    <button onclick="openPDF('CH9.pdf')">Open CH9</button>
+    <button onclick="openPDF('CH10.pdf')">Open CH10</button>
+    <button onclick="openPDF('CH12.pdf')">Open CH12</button>
+    <button onclick="openPDF('CH13.pdf')">Open CH13</button>
+    <button onclick="openPDF('CH15.pdf')">Open CH15</button>
+</div>
